@@ -1,0 +1,108 @@
+section {
+  width: 100%;
+  background-color: aliceblue;
+  height: 20vh;
+  box-shadow: 0px 5px 15px rgb(171, 170, 170);
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+section > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.imgDiv {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgDiv img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.aboutContainer {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+.aboutContainer p {
+  font-weight: bold;
+}
+.aboutContainer div {
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #5da5a4;
+}
+
+.new {
+  background-color: #5da5a4;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.featured {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.about {
+  display: flex;
+  gap: 10px;
+  color: grey;
+  align-items: center;
+}
+
+.about .dots {
+  width: 3px;
+  height: 3px;
+  background-color: grey;
+  border-radius: 100%;
+}
+
+.skills {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  color: #5da5a4;
+  font-weight: 600;
+}
+
+.skills p {
+  padding: 10px;
+  background-color: #eef7f6;
+  border-radius: 10px;
+}
+
+button {
+  color: white;
+  background-color: rgb(168, 80, 80);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0px 10px 0px 30px;
+  cursor: pointer;
+}
